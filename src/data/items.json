@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "title": "LeMacaron",
+        "img": "./images/projects/LeMacaron.png",
+        "description": "Some quick example text to build on the card title and make up the bulk.",
+        "stack": "React, TypeScript, HTML, CSS, Bootstrap",
+        "git": "https://github.com/298Ron/LeMacaron",
+        "developmentField": "FullStack",
+        "link": "https://github.com/298Ron/LeMacaron"
+    } ,
+    {
+        "id": 2,
+        "title": "ManageU",
+        "img": "./images/projects/ManageU.jpg.png",
+        "description": "Some quick example text to build on the card title and make up the bulk.",
+        "stack": "JavaScript, TypeScript, HTML, CSS, Bootstrap",
+        "git": "https://github.com/298Ron/ManageU",
+        "developmentField": "FullStack",
+        "link": "https://manageu-ron.netlify.app/"
+    },
+    {
+        "id": 3,
+        "title": "MyAccount",
+        "img": "./images/projects/MyAccount.jpg.png",
+        "description": "Some quick example text to build on the card title and make up the bulk.",
+        "stack": "JavaScript, HTML, CSS, Bootstrap",
+        "git": "https://github.com/298Ron/MyAccount",
+        "developmentField": "FullStack",
+        "link": "https://myaccount-ron.netlify.app/"
+    },
+    {
+        "id": 4,
+        "title": "TechIT",
+        "img": "./images/projects/TechIT.jpg",
+        "description": "Some quick example text to build on the card title and make up the bulk.",
+        "stack": "JavaScript, HTML, CSS, Bootstrap",
+        "git": "https://github.com/298Ron/TECHIT",
+        "developmentField": "FullStack",
+        "link": "https://techit-ron.netlify.app/"
+    }
+   
+]
