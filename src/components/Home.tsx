@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import projects from "../data/items.json";
 import { ProjectGallery } from "./ProjectGallery";
-import {} from "../App.css";
+import "../App.css";
 import { useFormik } from "formik";
 import * as yup from "yup";
 import { successMsg } from "../services/feedbackService";

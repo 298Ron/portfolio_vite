@@ -4,7 +4,8 @@ import { Home } from "./components/Home";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { ToastContainer } from "react-toastify";
-import {} from "./App.css";
+import "./App.css";
+
 function App() {
   return (
     <Container className="mb-4">

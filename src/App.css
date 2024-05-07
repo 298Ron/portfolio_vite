@@ -1,94 +1,83 @@
-
-*{
-    color:white;
-    font-family: 'Exo 2', sans-serif;
+* {
+  color: white;
+  font-family: "Exo 2", sans-serif;
 }
 .body {
-    background-color: rgb(19, 19, 19);
+  background-color: rgb(19, 19, 19);
 }
 .zoomIn {
-
-    transform: scale(1);
-    transition: 0.5s;
+  transform: scale(1);
+  transition: 0.5s;
 }
 .zoomIn:hover {
-    color: #0ff !important;
-    
-    transform: scale(1.1);
-    transition: 0.5s;
-}
+  color: #0ff !important;
 
+  transform: scale(1.1);
+  transition: 0.5s;
+}
 
 .zoomIn2 {
-
-    transform: scale(1);
-    transition: 0.5s;
+  transform: scale(1);
+  transition: 0.5s;
 }
 .zoomIn2:hover {
-    box-shadow: 0px 0px 25px 1px #0ff;
-    transform: scale(1.03);
-    transition: 0.5s;
+  box-shadow: 0px 0px 25px 1px #0ff;
+  transform: scale(1.03);
+  transition: 0.5s;
 }
 
-
-
-.zoomOut{
-    transform: scale(1);
-    transition: 0.5s;
+.zoomOut {
+  transform: scale(1);
+  transition: 0.5s;
 }
-.zoomOut:hover{
-    box-shadow: 0px 0px 25px 1px #0ff;
-    transform: scale(0.9);
-    transition: 0.5s;
+.zoomOut:hover {
+  box-shadow: 0px 0px 25px 1px #0ff;
+  transform: scale(0.9);
+  transition: 0.5s;
 }
 
-.card{
-    transition: 0.5s;
+.card {
+  transition: 0.5s;
 }
-.card:hover{
-    transition: 0.5s;
-    box-shadow: 0px 0px 25px 1px #0ff;
+.card:hover {
+  transition: 0.5s;
+  box-shadow: 0px 0px 25px 1px #0ff;
 }
 
 /* The navigation bar */
- .navbar
-{
-
-   position: fixed;
-   top: 0px;
-} 
-
-.icon{
-    color: black;
+.navbar {
+  position: fixed;
+  top: 0px;
 }
 
-.btn{
-    background-color: #131313!important;
-   color:  whitesmoke !important;
-   border-color:whitesmoke !important;   
+.icon {
+  color: black;
 }
 
-.btn:hover{
-   background-color:#2f3236 !important;
-   color: white !important;
-   border-color:white !important;
+.btn {
+  background-color: #131313 !important;
+  color: whitesmoke !important;
+  border-color: whitesmoke !important;
 }
 
-
-.active{
-    
-    top: 0px;
-    transition: 0.3s linear;
-    display: flex; 
-    background-color: rgba(255, 255, 255, 0.799);
-    border-width: 3px;
-    border-style:solid;
-    border-color: black;
-    color: black;
-
+.btn:hover {
+  background-color: #2f3236 !important;
+  color: white !important;
+  border-color: white !important;
 }
-.hidden{
-    transition: 0.3s linear;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 15px 1px rgb(255, 255, 255);
+
+.active {
+  top: 0px;
+  transition: 0.3s linear;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.799);
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  color: black;
+}
+.hidden {
+  transition: 0.3s linear;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 15px 1px rgb(255, 255, 255);
 }
