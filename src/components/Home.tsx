@@ -126,7 +126,14 @@ export function Home() {
 
         {/* THE CONTACT SECTION*/}
 
-        <div className="" style={{ position: "relative" }}>
+        <div
+          className=""
+          style={{
+            position: "relative",
+            minHeight: "75vh",
+            paddingTop: "50px",
+          }}
+        >
           <h1 className="text-light py-3 mt-5" style={{ position: "relative" }}>
             Contact Me
           </h1>
